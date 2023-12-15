@@ -1,0 +1,706 @@
+body {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 0px 20px;
+    margin: 0px 54.5px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-logo {
+    padding: 0px 10px 0px 30px;
+}
+
+.main-menu-links {
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.main-menu-links ul {
+    list-style-type: none;
+}
+
+.main-menu-links li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.main-menu-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.main-menu-links a:hover {
+    color: #A1683A;
+}
+
+.main-part-one {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    font-weight: lighter;
+    background-image: url(images/food1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    color: white;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.main-part-one h1 {
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.main-part-one p {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 80px;
+}
+
+.explore-btn {
+    border: 1px solid;
+    border-color: #DB9423;
+    border-radius: 50px;
+    background-color: #A1683A;
+    padding: 17px 35px;
+    color: white;
+    font-size: 16px;
+}
+
+.explore-btn a, .about-us-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-part-two {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 60px;
+}
+
+.main-part-two img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.img1 {
+    width: 50px;
+}
+
+.img2 {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.mismatched-images{
+    flex: 1;
+}
+
+.img3 {
+    width: 250px;
+    padding: 10px;
+}
+
+.img4 {
+    width: auto;
+    margin-left: 180px;
+}
+
+.home-about-us-section {
+    text-align: center;
+    padding: 30px 40px 30px 30px;
+    flex: 0 0 55%;
+}
+
+.home-about-us-section h3{
+    font-family: 'Abril Fatface', serif;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.home-about-us-section h6 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.home-about-us-section p {
+    text-align: justify;
+}
+
+.about-us-btn {
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #A1683A;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.main-part-three{
+    font-family: 'Abril Fatface', serif;
+}
+
+.main-part-three-title {
+    background-image: url("images/food1.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    padding: 100px;
+}
+
+.main-part-three h1 {
+    font-size: 114px;  
+    font-weight: 400;  
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.menu-items-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+    max-width: 100px;
+
+}
+
+.menu-items-column-1 {
+    flex: 0 0 50%;
+    margin-left: 45px;
+}
+
+.menu-items-column-2 {
+    flex-basis: 1;
+}
+
+.menu-items-list {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 65px 30px 30px;
+}
+
+.text-column{
+    flex: 0 0 50%;    
+    padding: 10px;
+}
+
+.text-column h4 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding: 10px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.text-column h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.img-column{
+    flex: 0 0 fit-content;
+}
+
+.img-column img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+}
+
+.main-part-four {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    padding: 50px 50px 100px 50px;
+}
+
+.form-element-container {
+    flex: 0 0 50%;
+}
+
+.form-element input{
+    display: block;
+    width: 85%;
+    margin: 0px 10px 20px 10px;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px grey;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+
+input:focus{
+    border: 10px dotted red;
+}
+
+.form-message-field {
+    height: 100px;
+    text-align: start;
+    resize: vertical;
+}
+
+.form-send-button {
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #A1683A;
+    padding: 15px 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.google-map {
+    flex: 0 0 50%;
+}
+
+.google-map div{
+    width: auto;
+    height: 300px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    align-content: center;
+    background-image: url("images/food1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-footer {
+    grid-row: span;
+    text-align: center;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.first-footer a {
+    color: #ff6900;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.first-footer h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.second-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: max-content;
+}
+
+.second-footer p {
+    color: #A2A2A3;
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.social {
+    padding-right: 350px;
+    justify-content: space-around;
+}
+
+.social a {
+    display: inline-block;
+}
+
+.social-link {
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #DB9423;
+    color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 10px;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* styles for about us page */
+
+.about-container-one {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-image: url(images/food1.png);
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.about-container-one h1 {
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: white;
+}
+
+.about-container-one h4 {
+    font-size: 31px;
+    color:#DB9423;
+    font-weight: 600;
+    line-height: 1.6em;
+    margin-bottom: 80px;
+}
+
+.about-container-two {
+    background-color:#F2F2F2;
+}
+
+.about-our-place {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-our-place p {
+    padding: 0px 350px;
+    line-height: 1.4em;
+}
+
+.about-our-place h2 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#slider-container {
+    box-shadow: 0 18px 36px 0 rgba(29, 29, 35, 0.6);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+#slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 25%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 200px;
+    height: auto;
+}
+
+.about-few-words {
+    display: flex;
+    padding: 0px 100px 50px 10px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+}
+
+.section-one {
+    padding: 20px 60px 20px 100px;
+}
+
+.section-one h2{
+    font-family: 'Abril Fatface', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.section-one h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.13rem;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.line-divider {
+    border-top: 2px solid #DB9423;
+    width: 50px;
+    margin: 0;
+}
+
+.section-one p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.section-two {
+    padding: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.view-menu-btn {
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #A1683A;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+.about-container-three {
+    display: flex;
+    font-family: 'Abril Fatface', serif;
+    justify-content: space-evenly;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-image: url(images/food2.png);
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 400px;
+    padding-top: 100px;
+    color: white;
+}
+
+.food-policy {
+    padding: 20px 100px;
+    font-family: 'Roboto', sans-serif;
+    flex: 0 0 40%;
+}
+
+.food-policy h2 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.food-policy div {
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.core-values {
+    padding: 20px 260px 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+.core-values h2 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.core-values ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.core-values li {
+    margin-bottom: 1.6em;
+    font-weight: 800;
+    list-style-position: outside;
+}
+
+.up-arrow-divider {
+    border: 5px solid #DB9423;
+    height: 48px;
+    border-right: 15px;
+    border-left: 15px;
+    
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+/*styles for menu page*/
+
+.menu-container-one {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    height: 320px;
+    padding-top: 100px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-image: url(images/food1.png);
+}
+
+.menu-container-one h1 {
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: white;
+}
+
+.menu-container-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
+
+.main-container-two img {
+    opacity: 0.6;
+    width: 300px;
+    height: 300px;
+
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*styles for contact-us page*/
+
+.contact-us-container {
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    padding: 100px 0px 50px;
+}
+
+.top {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.top h1, .left h2, .bottom h2 {
+    margin: 0;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.top h1 {
+    font-size: 45px;
+}
+
+.left h2, .bottom h2 {
+    font-size: 30px;
+}
+
+.left {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.dine-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 30px 270px;
+}
+
+.clmn-hr {
+    background-color:#DB9423;
+}
+
+
+.bottom img {
+    display: inline-block;
+    margin: 25px;
+}
+
+.open-hours {
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.open-hours h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.33rem;
+    margin: 0;
+    display: inline-block;
+}
+
+.open-hours-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 440px 0 440px;
+}
+
